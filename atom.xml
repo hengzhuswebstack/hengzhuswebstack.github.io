@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://hengzhubao.gitee.io/blog</id>
+    <id>https://http://hengzhubao.gitee.io/baohengzhu.gitee.io</id>
     <title>求是法道Hengzhu Bao</title>
-    <updated>2020-11-20T11:01:07.596Z</updated>
+    <updated>2020-11-20T11:10:13.945Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://hengzhubao.gitee.io/blog"/>
-    <link rel="self" href="https://hengzhubao.gitee.io/blog/atom.xml"/>
+    <link rel="alternate" href="https://http://hengzhubao.gitee.io/baohengzhu.gitee.io"/>
+    <link rel="self" href="https://http://hengzhubao.gitee.io/baohengzhu.gitee.io/atom.xml"/>
     <subtitle>Nothing in my mind except nothing!</subtitle>
-    <logo>https://hengzhubao.gitee.io/blog/images/avatar.png</logo>
-    <icon>https://hengzhubao.gitee.io/blog/favicon.ico</icon>
+    <logo>https://http://hengzhubao.gitee.io/baohengzhu.gitee.io/images/avatar.png</logo>
+    <icon>https://http://hengzhubao.gitee.io/baohengzhu.gitee.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 求是法道Hengzhu Bao</rights>
     <entry>
         <title type="html"><![CDATA[Experimental investigations of three laser-induced synchronized bubbles]]></title>
-        <id>https://hengzhubao.gitee.io/blog/post/manuscript1/</id>
-        <link href="https://hengzhubao.gitee.io/blog/post/manuscript1/">
+        <id>https://http://hengzhubao.gitee.io/baohengzhu.gitee.io/post/manuscript1/</id>
+        <link href="https://http://hengzhubao.gitee.io/baohengzhu.gitee.io/post/manuscript1/">
         </link>
         <updated>2020-11-19T17:07:15.000Z</updated>
         <summary type="html"><![CDATA[<p><a href="https://doi.org/10.1016/j.ultsonch.2020.105375">https://doi.org/10.1016/j.ultsonch.2020.105375</a></p>
@@ -474,8 +474,8 @@ The interaction of multiple cavitation bubbles is discussed in this paper. The p
     </entry>
     <entry>
         <title type="html"><![CDATA[A busy day ]]></title>
-        <id>https://hengzhubao.gitee.io/blog/post/a-busy-day/</id>
-        <link href="https://hengzhubao.gitee.io/blog/post/a-busy-day/">
+        <id>https://http://hengzhubao.gitee.io/baohengzhu.gitee.io/post/a-busy-day/</id>
+        <link href="https://http://hengzhubao.gitee.io/baohengzhu.gitee.io/post/a-busy-day/">
         </link>
         <updated>2019-12-30T13:27:08.000Z</updated>
         <content type="html"><![CDATA[<!-- more -->
@@ -487,11 +487,11 @@ The interaction of multiple cavitation bubbles is discussed in this paper. The p
     </entry>
     <entry>
         <title type="html"><![CDATA[About]]></title>
-        <id>https://hengzhubao.gitee.io/blog/post/about/</id>
-        <link href="https://hengzhubao.gitee.io/blog/post/about/">
+        <id>https://http://hengzhubao.gitee.io/baohengzhu.gitee.io/post/about/</id>
+        <link href="https://http://hengzhubao.gitee.io/baohengzhu.gitee.io/post/about/">
         </link>
         <updated>2019-12-21T17:25:23.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://hengzhubao.gitee.io/blog/post-images/1576949215016.jpg" alt="" loading="lazy"><br>
+        <content type="html"><![CDATA[<p><img src="https://http://hengzhubao.gitee.io/baohengzhu.gitee.io/post-images/1576949215016.jpg" alt="" loading="lazy"><br>
 Prof. Qian<br>
 I don't know how would he judge me, what would he tell me.</p>
 <p>I singing</p>
@@ -500,8 +500,8 @@ I don't know how would he judge me, what would he tell me.</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[关于本科前教师的一些回忆]]></title>
-        <id>https://hengzhubao.gitee.io/blog/post/shide/</id>
-        <link href="https://hengzhubao.gitee.io/blog/post/shide/">
+        <id>https://http://hengzhubao.gitee.io/baohengzhu.gitee.io/post/shide/</id>
+        <link href="https://http://hengzhubao.gitee.io/baohengzhu.gitee.io/post/shide/">
         </link>
         <updated>2019-04-04T12:23:10.000Z</updated>
         <content type="html"><![CDATA[<h2 id="啰嗦了一堆趣事和让人心情不好的事而不做政治分析-大家不要介意">啰嗦了一堆趣事和让人心情不好的事，而不做政治分析。大家不要介意</h2>
