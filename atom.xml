@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hengzhubao.github.io/</id>
     <title>求是法道Hengzhu Bao</title>
-    <updated>2020-11-20T13:54:09.045Z</updated>
+    <updated>2020-11-20T14:08:44.415Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hengzhubao.github.io/"/>
     <link rel="self" href="https://hengzhubao.github.io/atom.xml"/>
@@ -486,6 +486,29 @@ The interaction of multiple cavitation bubbles is discussed in this paper. The p
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[民族主义]]></title>
+        <id>https://hengzhubao.github.io/post/racism/</id>
+        <link href="https://hengzhubao.github.io/post/racism/">
+        </link>
+        <updated>2020-05-06T18:23:23.000Z</updated>
+        <content type="html"><![CDATA[<p>民族意识或者任何团体的形成必须有一个认同意识的自我强化的过程。在没有自我强化前，一般可以认为不存在这个民族。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[孤独感]]></title>
+        <id>https://hengzhubao.github.io/post/lonely/</id>
+        <link href="https://hengzhubao.github.io/post/lonely/">
+        </link>
+        <updated>2020-05-05T17:37:23.000Z</updated>
+        <content type="html"><![CDATA[<p>很多人会说我为什么要发那么多朋友圈？</p>
+<p>我知道大家其实都不看我的朋友圈，对我说的内容更加不感兴趣。</p>
+<p>因为我内心真的很孤独，没有人说话。</p>
+<p>朋友同学们都有了自己的生活，用一些琐碎事他们不关心的事去打扰他们，我做不到。</p>
+<p>在微信moments 里喊喊话，在github 里写写内心的想法。除了家人，没有人关心你，成年人就是这样。可我又怎么愿意用琐事去烦他们呢。</p>
+<p>我爱这个世界，可我也恨这个世界。恨他为什么这么冷漠无情。</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[A busy day ]]></title>
         <id>https://hengzhubao.github.io/post/a-busy-day/</id>
         <link href="https://hengzhubao.github.io/post/a-busy-day/">
@@ -504,11 +527,13 @@ The interaction of multiple cavitation bubbles is discussed in this paper. The p
         <link href="https://hengzhubao.github.io/post/about/">
         </link>
         <updated>2019-12-21T17:25:23.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://hengzhubao.github.io//post-images/1576949215016.jpg" alt="" loading="lazy"><br>
-Prof. Qian<br>
-I don't know how would he judge me, what would he tell me.</p>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://hengzhubao.github.io//post-images/1576949215016.jpg" alt="" loading="lazy"></figure>
+<p>Prof. Qian</p>
+<p>I don't know how would he judge me, what would he tell me.</p>
 <p>I singing</p>
 <p>I'm just trying to fill my empty brain with something intresting!</p>
+<p>本博客是为了创建一个记录心路的地方。朋友圈太死寂，微博太乱。</p>
+<p>可能没有人会看吧</p>
 ]]></content>
     </entry>
     <entry>
