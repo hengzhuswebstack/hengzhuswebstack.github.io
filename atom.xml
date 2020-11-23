@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hengzhubao.gitee.io/</id>
     <title>求是法道Hengzhu Bao</title>
-    <updated>2020-11-23T16:30:28.941Z</updated>
+    <updated>2020-11-23T16:30:52.188Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hengzhubao.gitee.io/"/>
     <link rel="self" href="https://hengzhubao.gitee.io/atom.xml"/>
@@ -10,6 +10,57 @@
     <logo>https://hengzhubao.gitee.io/images/avatar.png</logo>
     <icon>https://hengzhubao.gitee.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 求是法道Hengzhu Bao</rights>
+    <entry>
+        <title type="html"><![CDATA[孤独]]></title>
+        <id>https://hengzhubao.gitee.io/post/gudu/</id>
+        <link href="https://hengzhubao.gitee.io/post/gudu/">
+        </link>
+        <updated>2020-11-23T16:26:10.000Z</updated>
+        <content type="html"><![CDATA[<p>有大成功者必有大孤独</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[缺钱]]></title>
+        <id>https://hengzhubao.gitee.io/post/lackofmoney/</id>
+        <link href="https://hengzhubao.gitee.io/post/lackofmoney/">
+        </link>
+        <updated>2020-11-23T07:29:15.000Z</updated>
+        <content type="html"><![CDATA[<p>当听说我缺十一万块钱，</p>
+<p>老爹能在一个小时内打给我十一万，</p>
+<p>好兄弟能支援一万，</p>
+<p>师兄弟能发个1.10的红包，</p>
+<p>蚂蚁金融能给我十万</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习]]></title>
+        <id>https://hengzhubao.gitee.io/post/xuexi/</id>
+        <link href="https://hengzhubao.gitee.io/post/xuexi/">
+        </link>
+        <updated>2020-11-22T13:55:15.000Z</updated>
+        <content type="html"><![CDATA[<p>人不学不知义</p>
+<p>学而不思则罔，思而不学则殆</p>
+<p>很多人不学习不思考，真的会落后到无法沟通。<br>
+社会对人的异化，使人忙于其工具属性，而放弃人生的学习和思考。</p>
+<p>务虚方有纲</p>
+<p>务实才有为</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YOUTH]]></title>
+        <id>https://hengzhubao.gitee.io/post/youth/</id>
+        <link href="https://hengzhubao.gitee.io/post/youth/">
+        </link>
+        <updated>2020-11-21T11:31:35.000Z</updated>
+        <content type="html"><![CDATA[<p>[author](Samuel Ullman)</p>
+<p>Youth is not a time of life;<br>
+it is a state of mind; it is not a matter of rosy cheeks, red lips and supple knees; it is a matter of the will, a quality of the imagination, a vigor of the emotions; it is the freshness of the deep springs of life.</p>
+<p>Youth means a tempera-mental predominance of courage over timidity, of the appetite for adventure over the love of ease. This often exists in a man of 60 more than a boy of 20. Nobody grows old merely by a number of years. We grow old by deserting our ideals.</p>
+<p>Years may wrinkle the skin, but to give up enthusiasm wrinkles the soul. Worry, fear, self-distrust bows the heart and turns the spring back to dust.</p>
+<p>Whether 60 or 16, there is in every human being’s heart the lure of wonder, the unfailing childlike appetite of what’s next and the joy of the game of living. In the center of your heart and my heart there is a wireless station: so long as it receives messages of beauty, hope, cheer, courage and power from men and from the Infinite, so long are you young.</p>
+<p>When the aerials are down, and your spirit is covered with snows of cynicism and the ice of pessimism, then you are grown old, even at 20, but as long as your aerials are up, to catch waves of optimism, there is hope you may die young at 80.</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Experimental investigations of three laser-induced synchronized bubbles]]></title>
         <id>https://hengzhubao.gitee.io/post/manuscript1/</id>
@@ -575,6 +626,15 @@ The interaction of multiple cavitation bubbles is discussed in this paper. The p
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[趋势]]></title>
+        <id>https://hengzhubao.gitee.io/post/trend/</id>
+        <link href="https://hengzhubao.gitee.io/post/trend/">
+        </link>
+        <updated>2020-11-09T11:31:41.000Z</updated>
+        <content type="html"><![CDATA[<p>睡王上线后，前几天开的某会的定调——我国仍处在重要战略机遇期，将彻底明朗。在这个四年期间，世界资本将继续向我转移，并因此带来各类资产的价格膨胀。我们普通人要顺应大势及时配置这类金融属性的资产。</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[一个梦]]></title>
         <id>https://hengzhubao.gitee.io/post/adream/</id>
         <link href="https://hengzhubao.gitee.io/post/adream/">
@@ -590,80 +650,6 @@ The interaction of multiple cavitation bubbles is discussed in this paper. The p
         </link>
         <updated>2020-10-18T12:41:28.000Z</updated>
         <content type="html"><![CDATA[<p>相互依靠，相互怀抱。作背后支持的人，作直面最柔软的人。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[丧家狗]]></title>
-        <id>https://hengzhubao.gitee.io/post/liling/</id>
-        <link href="https://hengzhubao.gitee.io/post/liling/">
-        </link>
-        <updated>2020-10-15T11:31:54.000Z</updated>
-        <content type="html"><![CDATA[<pre><code>任何怀抱理想，在现实世界找不到精神家园的人，都是丧家狗。
-
-                                               ---李零</code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[废话]]></title>
-        <id>https://hengzhubao.gitee.io/post/faith/</id>
-        <link href="https://hengzhubao.gitee.io/post/faith/">
-        </link>
-        <updated>2020-10-01T11:32:10.000Z</updated>
-        <content type="html"><![CDATA[<p>很多人劝我远离国家政治，以免惹来非议之祸。</p>
-<p>我是一个共产党员，我有义务，我也愿意为党呼，为民歌。</p>
-<p>我一不想考公，二不想选调，即使将来在技术岗位上做出什么成绩而走上领导岗位，我也愿意为我党发声，因为这是我的信仰。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[当老师也不错]]></title>
-        <id>https://hengzhubao.gitee.io/post/job/</id>
-        <link href="https://hengzhubao.gitee.io/post/job/">
-        </link>
-        <updated>2020-09-25T16:41:54.000Z</updated>
-        <content type="html"><![CDATA[<p>今天分别跟广济唐懋，杨兴阿凯聊了下人生要挣多少钱才够。</p>
-<p>以此时不变价算</p>
-<p>双方父母每年两万，二十年，共80万</p>
-<p>两子教育至22岁大学毕业，每年十万，共440万</p>
-<p>两子买房首付，100万，两套共200万</p>
-<p>退休后养老花费，每人年八万，共320万</p>
-<p>自付买房花费480万</p>
-<p>计共1520万<br>
-三十年不动资金，夫妻每年存50.6万。日常生活费，年用15万。</p>
-<p>计入需66.6万。</p>
-<p>以独子计教育及买房费用减半310万。</p>
-<p>即计总1210万。</p>
-<p>家庭需定存40万。计日常生活费后，年入需55万。</p>
-<p>男方以五年讲师，七年副教授，二十三年教授计。讲师年入15，副教授年入25，教授年入40计。</p>
-<p>男平均年入33.4万。</p>
-<p>哎，压力有点大啊，女方要挣二十多。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[交往观]]></title>
-        <id>https://hengzhubao.gitee.io/post/howtotreatanother/</id>
-        <link href="https://hengzhubao.gitee.io/post/howtotreatanother/">
-        </link>
-        <updated>2020-09-05T15:24:17.000Z</updated>
-        <content type="html"><![CDATA[<p>平等|<br>
-你做得，我也能做得。将欲取之必先予之。</p>
-<p>忠诚|</p>
-<p>责任|</p>
-<p>秉身以正</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[文明边疆]]></title>
-        <id>https://hengzhubao.gitee.io/post/borderofcivilization/</id>
-        <link href="https://hengzhubao.gitee.io/post/borderofcivilization/">
-        </link>
-        <updated>2020-09-02T17:09:20.000Z</updated>
-        <content type="html"><![CDATA[<p>读波斯笔记，发现一个有趣的命题，好想找人讨论讨论。</p>
-<p>处在文明边疆的次文明很可能壮大并反向融合主文明，并成为主文明的本身。</p>
-<p>先说一个我的假设，现代文明是不是正在非洲化啊？</p>
-<p>伊朗文明自北而来，东界直到印度河，是征服者的安乐窝，南界衍生了绿文明，西界衍生了希腊。罗马是希腊边疆。蛮子们是罗马的边疆，现在的西欧。毛子和扬基是蛮子的边疆。</p>
-<p>商自北，周秦自西。汉承之。鲜卑处北疆，隋唐承之。契丹女真蒙古处北疆，明承之。鬼子也是华夏文明的边疆。</p>
-<p>我看到现代社会的文明真的变得有点像非洲了呢！</p>
-<p>好想找个人一起看书啊</p>
 ]]></content>
     </entry>
 </feed>
