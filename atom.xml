@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hengzhubao.gitee.io/</id>
     <title>求是法道Hengzhu Bao</title>
-    <updated>2020-11-23T16:30:52.188Z</updated>
+    <updated>2020-11-27T16:24:24.600Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hengzhubao.gitee.io/"/>
     <link rel="self" href="https://hengzhubao.gitee.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://hengzhubao.gitee.io/images/avatar.png</logo>
     <icon>https://hengzhubao.gitee.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 求是法道Hengzhu Bao</rights>
+    <entry>
+        <title type="html"><![CDATA[抱负既成，自当归闲]]></title>
+        <id>https://hengzhubao.gitee.io/post/guiyin/</id>
+        <link href="https://hengzhubao.gitee.io/post/guiyin/">
+        </link>
+        <updated>2020-11-28T00:24:02.000Z</updated>
+        <content type="html"><![CDATA[<p>汝可躬耕于此，勿得荒芜田亩，待我功成之日，即当归隐</p>
+<p>莫春者，春服既成，冠者五六人，童子六七人，浴乎沂，风乎舞雩，咏而归。<br>
+😄😄😄</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[孤独]]></title>
         <id>https://hengzhubao.gitee.io/post/gudu/</id>
@@ -641,15 +652,6 @@ The interaction of multiple cavitation bubbles is discussed in this paper. The p
         </link>
         <updated>2020-10-19T23:31:48.000Z</updated>
         <content type="html"><![CDATA[<p>有天使入梦，曰：此李从珂之女喻洪景，汝良配也</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[爱]]></title>
-        <id>https://hengzhubao.gitee.io/post/love/</id>
-        <link href="https://hengzhubao.gitee.io/post/love/">
-        </link>
-        <updated>2020-10-18T12:41:28.000Z</updated>
-        <content type="html"><![CDATA[<p>相互依靠，相互怀抱。作背后支持的人，作直面最柔软的人。</p>
 ]]></content>
     </entry>
 </feed>
