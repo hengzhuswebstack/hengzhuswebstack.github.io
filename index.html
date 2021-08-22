@@ -1,1169 +1,223 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" href="https://hengzhubao.github.io//media/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/css/live2d.css">
-    <link rel="stylesheet" href="https://hengzhubao.github.io//styles/main.css">
-    <meta name="description" content="共产党人不屑于隐瞒自己的观点和意图" />
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>求是法道Hengzhu Bao</title>
-</head>
+    <meta name="description" content="共产党人不屑于隐瞒自己的观点和意图">
+    <link rel="shortcut icon" href="https://baohengzhu.github.io//media/images/eduifuns.png">
+    <link rel="stylesheet" href="//fonts.loli.net/css?family=Arimo:400,700,400italic">
+    <link rel="stylesheet" href="https://baohengzhu.github.io//media/css/icomoon.css">
+    <link rel="stylesheet" href="https://baohengzhu.github.io//media/css/main.css?v=1629660513991">
+  </head>
 
-
-<body>
-    <!-- 响应式布局，针对PC端内容显示 -->
-    <div id="content">
-        <div class="nav-large">
-            <div class="row">
-                
-                <div class="side"><body>
-    
-    <div id=side>
-        <div class="avatar-border">
-            <img src="https://hengzhubao.github.io//images/avatar.png?v=1606494856029" class="avatar">
+<body class="page-body">
+    <!-- skin-white -->
+    <div class="page-container">
+        <div class="sidebar-menu toggle-others fixed">
+            <div class="sidebar-menu-inner">
+                <header class="logo-env">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="https://baohengzhu.github.io/" class="logo-expanded">
+                            <img src="https://baohengzhu.github.io//images/avatar.png"  style="height:68px" alt="" />
+                        </a>
+                        <a href="https://baohengzhu.github.io/" class="logo-collapsed">
+                            <img src="https://baohengzhu.github.io//media/images/eduifuns.png" width="40" alt="" />
+                        </a>
+                    </div>
+                    <div class="mobile-menu-toggle visible-xs">
+                        <a href="#" data-toggle="mobile-menu">
+                            <i class="icon-bar"></i>
+                        </a>
+                    </div>
+                </header>
+                <ul id="main-menu" class="main-menu">
+                    <!-- li 加 has-sub 开启分组-->
+                    <li class="has-sub">
+                        <a>
+                            <i class="icon-globe"></i>
+                            <span class="title">在线工具</span>
+                        </a>
+                        <!-- ul li 格式添加子分组-->
+                        <ul>
+                            <li>
+                                <a href="#教学助手" class="smooth">
+                                    <i class="icon-star"></i>
+                                    <span class="title">教学助手</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#图文影音" class="smooth">
+                                    <i class="icon-pencil"></i>
+                                    <span class="title">图文影音</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#百科全书" class="smooth">
+                                    <i class="icon-database"></i>
+                                    <span class="title">百科全书</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    
+                    
+                    <li class="submit-tag">
+                        <a href="https://baohengzhu.github.io//about">
+                            <i class="icon-heart"></i>
+                            <span class="title">关于本站</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="sitename">求是法道Hengzhu Bao</div>
-        <span class="describtion" data-text='["共产党人不屑于隐瞒自己的观点和意图"]'>&nbsp;</span>
-        
-        <div class="search">
-            <!-- <input type="text" class="search-input" placeholder="标题搜索(●'◡'●)" /> -->
-            <input type="text" class="search-input" placeholder="标题搜索 ⚆_⚆ つ♡">
-            <div class="search-results"></div>
+        <div class="main-content">
+            <nav class="navbar user-info-navbar" role="navigation">
+                <!-- User Info, Notifications and Menu Bar -->
+                <!-- Left links for user info navbar -->
+                <ul class="user-info-menu left-links list-inline list-unstyled">
+                    <li class="hidden-sm hidden-xs">
+                        <a href="#" data-toggle="sidebar">
+                            <i class="icon-bar"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- 今日诗词 -->
+            <div id="poem_content">
+                <h3 id="poem_sentence"></h3><span id="poem_info"></span>
+            </div>
+            <!-- 今日诗词 -->
+            <br />
+            <!-- 在线工具 -->
+            
+            
+            
+            <!-- END 在线工具 -->
+
+            <!-- 实用软件 -->
+            
+            <!-- END 实用软件 -->
+
+            <!-- 线上课程 -->
+            
+            <!-- END 线上课程 -->
+
+            <!-- 素材资源 -->
+            
+            <!-- END 素材资源 -->
+
+
+            <!-- Main Footer -->
+            <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
+            <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
+            <!-- Or class "fixed" to  always fix the footer to the end of page -->
+            <footer class="main-footer sticky footer-type-1">
+                <div class="footer-inner">
+                    <!-- Add your copyright text here -->
+                    <div class="footer-text">
+                        忠于理想面对现实 <span id="busuanzi_container_site_pv" style='display:none'>总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+                    </div>
+                    <div class="go-up">
+                        <a href="#" rel="go-top">
+                            <i class="icon-up"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
         </div>
-        
-    <div class="share-button">
-        <span>社交按钮</span>
-        
-        
-        
-        
-        
-        
-    </div>
-    <div id="qq" style="display:none"></div>
-    
-    
-    <div class="mchocie describtion">
-        <a href="/" class="menubutton">
-            首页
-        </a>
-    </div>
-    
-    
-    
-    <div class="mchocie describtion">
-        <a href="/archives" class="menubutton">
-            归档
-        </a>
-    </div>
-    
-    
-    
-    <div class="mchocie describtion">
-        <a href="/tags" class="menubutton">
-            标签
-        </a>
-    </div>
-    
-    
-    
-    <div class="mchocie describtion">
-        <a href="/post/about" class="menubutton">
-            关于
-        </a>
-    </div>
-    
-    
-    
-    
-    <hr>
-    <div id="footinfo">忠于理想面对现实 | Theme: <a
-        href="https://github.com/850552586/gridea-theme-fog">Fog</a></div>
-    
-    <div class="sitetime"><div id="sitegotimeDate">载入天数...</div>
-    <div id="sitegotimes">载入时分秒...</div></div>
-    <div id="cussitetime" style="display:none">01/10/2018</div>
-    
-    
     </div>
 
 
-<script src="https://hengzhubao.github.io//media/js/wordshow.js"></script>
-    
-    <script>
-        //----------------------站点运行时间
-        var now = new Date();
-
-        function createtime() {
-            var sitegotime = document.getElementById("cussitetime").innerHTML + " 00:00:00";
-            var grt = new Date(sitegotime); //此处修改你的建站时间或者网站上线时间
-            now.setTime(now.getTime() + 250);
-            days = (now - grt) / 1000 / 60 / 60 / 24;
-            dnum = Math.floor(days);
-            hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum);
-            hnum = Math.floor(hours);
-            if (String(hnum).length == 1) {
-                hnum = "0" + hnum;
-            }
-            minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
-            mnum = Math.floor(minutes);
-            if (String(mnum).length == 1) {
-                mnum = "0" + mnum;
-            }
-            seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
-            snum = Math.round(seconds);
-            if (String(snum).length == 1) {
-                snum = "0" + snum;
-            }
-            document.getElementById("sitegotimeDate").innerHTML = "本站已安全运行 " + dnum + " 天 ";
-            document.getElementById("sitegotimes").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
-        }
-        setInterval("createtime()", 250);
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    jinrishici.load(function(result) {
+        var sentence = document.querySelector("#poem_sentence")
+        var info = document.querySelector("#poem_info")
+        sentence.innerHTML = result.data.content
+        info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
+    });
     </script>
-    
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
+    <script src="//cdnjs.loli.net/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 锚点平滑移动 -->
+    <script type="text/javascript">
+    $(document).ready(function() {
+         //img lazy loaded
+         const observer = lozad();
+         observer.observe();
 
-
-
-    
-</body>
-<script>
-    //-------------------------------------------------搜索
-    // 获取搜索框、搜索按钮、清空搜索、结果输出对应的元素
-    var searchInput = document.querySelector('.search-input');
-    var searchResults = document.querySelector('.search-results');
-
-    // 申明保存文章的标题、链接、内容的数组变量
-    var searchValue = '',
-        arrItems = [],
-        arrLinks = [],
-        arrTitles = [],
-        arrResults = [],
-        indexItem = [],
-        itemLength = 0;
-    var tmpDiv = document.createElement('div');
-    tmpDiv.className = 'result-item';
-
-    // ajax 的兼容写法
-    var xhr = new XMLHttpRequest() || new ActiveXObject('Microsoft.XMLHTTP');
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState == 4 && xhr.status == 200) {
-            xml = xhr.responseXML;
-            arrItems = xml.getElementsByTagName('entry');
-            itemLength = arrItems.length;
-            // 遍历并保存所有文章对应的标题、链接、内容到对应的数组中
-            // 同时过滤掉 HTML 标签
-            for (i = 0; i < itemLength; i++) {
-                var link = arrItems[i].getElementsByTagName('link')[0];
-                arrLinks[i] = link.getAttribute("href");
-                arrTitles[i] = arrItems[i].getElementsByTagName('title')[0].
-                childNodes[0].nodeValue.replace(/<.*?>/g, '');
-            }
-        }
-    }
-
-    // 开始获取根目录下 feed.xml 文件内的数据
-    xhr.open('get', '/atom.xml', true);
-    xhr.send();
-
-
-
-    // 输入框内容变化后就开始匹配，可以不用点按钮
-    // 经测试，onkeydown, onchange 等方法效果不太理想，
-    // 存在输入延迟等问题，最后发现触发 input 事件最理想，
-    // 并且可以处理中文输入法拼写的变化
-    searchInput.oninput = function () {
-        setTimeout(searchConfirm, 0);
-    }
-    searchInput.onfocus = function () {
-        searchResults.style.display = 'block';
-    }
-
-    function searchConfirm() {
-        if (searchInput.value == '') {
-            searchResults.style.display = 'none';
-        } else if (searchInput.value.search(/^\s+$/) >= 0) {
-            // 检测输入值全是空白的情况
-            searchInit();
-            var itemDiv = tmpDiv.cloneNode(true);
-            itemDiv.innerText = '请输入有效内容...';
-            searchResults.appendChild(itemDiv);
-        } else {
-            // 合法输入值的情况
-            searchInit();
-            searchValue = searchInput.value;
-            // 在标题、内容中查找
-            searchMatching(arrTitles, searchValue);
-        }
-    }
-
-    // 每次搜索完成后的初始化
-    function searchInit() {
-        arrResults = [];
-        indexItem = [];
-        searchResults.innerHTML = '';
-        searchResults.style.display = 'block';
-    }
-
-    function searchMatching(arr1, input) {
-        // 忽略输入大小写
-        input = new RegExp(input, 'i');
-        // 在所有文章标题、内容中匹配查询值
-        for (i = 0; i < itemLength; i++) {
-            if (arr1[i].search(input) !== -1) {
-                var arr = arr1;
-                indexItem.push(i); // 保存匹配值的索引
-                var indexContent = arr[i].search(input);
-                // 此时 input 为 RegExp 格式 /input/i，转换为原 input 字符串长度
-                var l = input.toString().length - 3;
-                var step = 10;
-
-                // 将匹配到内容的地方进行黄色标记，并包括周围一定数量的文本
-                arrResults.push(arr[i].slice(indexContent - step, indexContent));
-            }
-        }
-
-        // 输出总共匹配到的数目
-        var totalDiv = tmpDiv.cloneNode(true);
-        totalDiv.innerHTML = '<b>总匹配：' + indexItem.length + ' 项<hr></b>';
-        searchResults.appendChild(totalDiv);
-
-        // 未匹配到内容的情况
-        if (indexItem.length == 0) {
-            var itemDiv = tmpDiv.cloneNode(true);
-            itemDiv.innerText = '未匹配到内容...';
-            searchResults.appendChild(itemDiv);
-        }
-
-        // 将所有匹配内容进行组合
-        for (i = 0; i < arrResults.length; i++) {
-            var itemDiv = tmpDiv.cloneNode(true);
-            itemDiv.innerHTML = '<b>[' + arrTitles[indexItem[i]] +
-                ']</b><p>' + arrResults[i] + "</p><hr />";
-            itemDiv.setAttribute('onclick', 'changeHref(arrLinks[indexItem[' + i + ']])');
-            searchResults.appendChild(itemDiv);
-        }
-    }
-
-    function changeHref(href) {
-        location.href = href;
-    }
-
-    function showqq() {
-        var qq = document.getElementById("qq").innerHTML;
-        if (qq != '')
-            window.location.href = "tencent://message/?uin=" + qq + "&Site=&Menu=yes";
-        else
-            alert("博主暂未设置QQ联系方式");
-    }
-</script>
-</div>
-                <div id="tab1" class="tab">
-                    <div class="bars">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <div class="close"></div>
-                </div>
-                <div class="col-md-1 col-lg-3"></div>
-                <div id="main" class="col-xs-12 col-sm-12 col-md-10 col-lg-7">
-                    <link rel="stylesheet" href="https://hengzhubao.github.io//media/css/font-awesome.css">
-<div id="post-container">
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            <img src="https://ars.els-cdn.com/content/image/1-s2.0-S1350417720316795-gr1.jpg" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/manuscript1/';return false">
-            <div class="posttitlebox">
-                <div class="posttitle" onclick="window.location.href= 'https://hengzhubao.github.io/post/manuscript1/';return false">
-                    Experimental investigations of three laser-induced synchronized bubbles
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-11-20</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 75 min read</div>
-            <div class="posttag">
-                
-                <a href="https://hengzhubao.github.io/tag/-ZhHBlWyM/" class="postlink">
-                    <i class="fa fa-tag"></i> papers
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="https://imgchr.com/i/DMjvl9" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/guiyin/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://hengzhubao.github.io/post/guiyin/';return false">
-                    抱负既成，自当归闲
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-11-28</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
-            <div class="posttag">
-                
-                <a href="https://hengzhubao.github.io/tag/fWdbEpDrt/" class="postlink">
-                    <i class="fa fa-tag"></i> notes
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="https://imgchr.com/i/DMjvl9" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/gudu/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://hengzhubao.github.io/post/gudu/';return false">
-                    孤独
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-11-24</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
-            <div class="posttag">
-                
-                <a href="https://hengzhubao.github.io/tag/fWdbEpDrt/" class="postlink">
-                    <i class="fa fa-tag"></i> notes
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="https://imgchr.com/i/DMjvl9" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/lackofmoney/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://hengzhubao.github.io/post/lackofmoney/';return false">
-                    缺钱
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-11-23</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
-            <div class="posttag">
-                
-                <a href="https://hengzhubao.github.io/tag/fWdbEpDrt/" class="postlink">
-                    <i class="fa fa-tag"></i> notes
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="https://imgchr.com/i/DMjvl9" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/xuexi/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://hengzhubao.github.io/post/xuexi/';return false">
-                    学习
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-11-22</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
-            <div class="posttag">
-                
-                <a href="https://hengzhubao.github.io/tag/fWdbEpDrt/" class="postlink">
-                    <i class="fa fa-tag"></i> notes
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="https://imgchr.com/i/DMjvl9" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/youth/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://hengzhubao.github.io/post/youth/';return false">
-                    YOUTH
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-11-21</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 2 min read</div>
-            <div class="posttag">
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="https://imgchr.com/i/DMjvl9" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/libaipoem/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://hengzhubao.github.io/post/libaipoem/';return false">
-                    经乱离后天恩流夜郎忆旧游书怀赠江夏韦太守良宰
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-11-15</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 3 min read</div>
-            <div class="posttag">
-                
-                <a href="https://hengzhubao.github.io/tag/fWdbEpDrt/" class="postlink">
-                    <i class="fa fa-tag"></i> notes
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="https://imgchr.com/i/DMjvl9" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/maodun/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://hengzhubao.github.io/post/maodun/';return false">
-                    统治者的矛盾
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-11-12</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
-            <div class="posttag">
-                
-                <a href="https://hengzhubao.github.io/tag/fWdbEpDrt/" class="postlink">
-                    <i class="fa fa-tag"></i> notes
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="https://imgchr.com/i/DMjvl9" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/trend/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://hengzhubao.github.io/post/trend/';return false">
-                    趋势
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-11-09</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
-            <div class="posttag">
-                
-                <a href="https://hengzhubao.github.io/tag/fWdbEpDrt/" class="postlink">
-                    <i class="fa fa-tag"></i> notes
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="https://imgchr.com/i/DMjvl9" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/adream/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://hengzhubao.github.io/post/adream/';return false">
-                    一个梦
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-10-20</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
-            <div class="posttag">
-                
-                <a href="https://hengzhubao.github.io/tag/fWdbEpDrt/" class="postlink">
-                    <i class="fa fa-tag"></i> notes
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-</div>
-                    <div>
-                        <div class="pagi">
-    <ul>
-        
-        <li><a style="width:100px">&nbsp;</a></li>
-        
-                <li><a id="page1">1</a></li>
-                <li><a id="page2" class="active">2</a></li>
-                <li><a id="page3">3</a></li>
-                
-        <li><a href="https://hengzhubao.github.io/page/2" style="width:100px" id="next">下一页</a></li>
-        
-            </ul>
-</div>
-
-<div id="pagination-prev" style="display:none"> 
-</div>
-<div id="pagination-next" style="display:none"> https://hengzhubao.github.io/page/2</div>
-
-
-<script>
-    var prevstr = document.getElementById("pagination-prev").innerHTML;
-    var nextstr = document.getElementById("pagination-next").innerHTML;
-    var page1 = document.getElementById("page1");
-    var page2 = document.getElementById("page2");
-    var page3 = document.getElementById("page3");
-    page1.innerHTML = '-';
-    page2.innerHTML = '1';
-    page3.innerHTML = '-';
-    if (prevstr.length > 5) {
-        if (prevstr.indexOf("page/") != -1) {
-            var prevnum = parseInt(prevstr.split("page/")[1]);
-            page1.innerHTML = prevnum;
-            page2.innerHTML = prevnum + 1;
-        } else {
-            page1.innerHTML = 1;
-            page2.innerHTML = 2;
-        }
-    }
-    if (nextstr.indexOf("page/") != -1) {
-        var nextnum = parseInt(nextstr.split("page/")[1]);
-        page3.innerHTML = nextnum;
-        page2.innerHTML = nextnum - 1;
-    }
-</script>
-                    </div>
-                </div>
-                <div class="col-md-1 col-lg-2"></div>
-                
-        
-    </div>
-    
-    
-        <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-</head>
-<body>
-    <div class="miniMode">
-        <meting-js id="myaplayer" server="netease" type="playlist" fixed="true" order="default">
-        </meting-js>
-    </div>   
-</body>
-
-
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-<script>
-    var aplayerid = "82302767";
-    var aplayerserver = "netease";
-    var aplayerorder = "random";
-    var aplayerautoplay = "false";
-    var aplayer = $("#myaplayer");
-    aplayer.attr("server",aplayerserver);
-    aplayer.attr("id",aplayerid);
-    aplayer.attr("order",aplayerorder);
-    if(aplayerautoplay=="true")
-        aplayer.attr("autoplay","true");
-</script>
-
-<script src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/Aplayer.min.js"></script>
-<!-- require MetingJS -->
-<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
-
-<script>
-    function aplayerbtnInit(){
-        var player = document.querySelectorAll('meting-js')[0].aplayer;
-        player.lrc.hide();
-        var mbabtn = $("#mbaplayer");
-        if(player.paused==false)
-        {
-            mbabtn.removeClass("fa-play-circle-o");
-            mbabtn.addClass("fa-pause-circle");
-        }
-        else
-        {
-            mbabtn.addClass("fa-play-circle-o");
-            mbabtn.removeClass("fa-pause-circle");
-        }
-    }
-
-    function aplayerPlay(){
-        var player = document.querySelectorAll('meting-js')[0].aplayer;
-        var mbabtn = $("#mbaplayer");
-        if(player.paused==true)
-        {
-            player.play();
-            mbabtn.removeClass("fa-play-circle-o");
-            mbabtn.addClass("fa-pause-circle");
-        }
-        else
-        {
-            player.pause();
-            mbabtn.addClass("fa-play-circle-o");
-            mbabtn.removeClass("fa-pause-circle");
-        }
-    }
-</script>
-    
-    </div>
-    <div id="bg">
-    </div>
-    <div id="bgchoice" style="display: none">link
-    </div>
-            
-            <div id="bgurl" style="display:none">https://imgchr.com/i/DMjLYF</div>
-             
-
-    <!-- 响应式布局，针对手机端内容显示 -->
-    <div class="nav-small">
-            <head>
-  <!-- 引入Bootstrap核心样式文件 -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/css/bootstrap.min.css">
-</head>
-<style>
-  @media screen and (max-width:1200px) and (min-width: 768px) {
-    @media (min-width: 768px) {
-      .navbar-nav {
-        float: right;
-        margin: 0;
-      }
-    }
-  }
-  @media screen and (max-width:768px){
-    .mbapspan{
-      padding: 0;
-    }
-  }
-</style>
-
-<body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barmenu"
-          aria-expanded="false" id="barbutton">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="https://hengzhubao.github.io/">求是法道Hengzhu Bao&nbsp;&nbsp;|</a>
-        <span class="navbar-brand mbapspan"><i id="mbaplayer" class="fa fa-play-circle-o" aria-hidden="true"
-            style="font-size: 28px;top: 12px;position: absolute;" onclick="aplayerPlay();"></i></span>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="barmenu">
-        <ul class="nav navbar-nav">
-          
-          
-          <li>
-            <a href="/">
-              首页
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="/archives">
-              归档
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="/tags">
-              标签
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="/post/about">
-              关于
-            </a>
-          </li>
-          
-          
-          
-          
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-
-
-  <!-- 引入jQuery核心js文件 -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-  <script>
-  var btstate = false;
-  var bt = $("#barbutton");
-  var bm = $("#barmenu");
-  bt.click(function(){
-    dropdown();
-  })
-  function dropdown(){
-    console.log(btstate);
-    //下拉
-    if(btstate==false){
-      bt.removeClass("collapsed");
-      bt.attr("aria-expanded","true");
-      bm.attr("aria-expanded","true")
-      bm.fadeIn(700);
-      btstate = true;
-    }
-    else{
-      bt.addClass("collapsed");
-      bt.attr("aria-expanded","false");
-      bm.removeClass("in");
-      bm.hide();
-      bm.attr("aria-expanded","false");
-      btstate = false;
-    }
-  }
-  </script> 
-</body>
-            <!-- 移动端欢迎页 -->
-<div class="welcome">
-    <div class="avatar-border">
-        <img src="https://hengzhubao.github.io//images/avatar.png?v=1606494856029" class="avatar">
-    </div>
-    <span class="mobiledescribtion"></span>
-</div>
-
-    <div id="mobilebgurl" style="display:none">https://imgchr.com/i/DMjOW4</div>
-
-<script>
-    var welcome = $('.welcome');
-    var bgurl = document.getElementById("mobilebgurl").innerHTML;
-    for (var i = 0; i < 3; i++)
-        bgurl = bgurl.replace("\\", "/");
-    welcome.css("background", "url('" + bgurl + "')");
-    var mobiledes = document.querySelector(".mobiledescribtion");
-    var text = "共产党人不屑于隐瞒自己的观点和意图";
-    // 当前显示第几个字
-    var mobilecharIndex = 1;
-    // 每个字显示间隔默认是500毫秒
-    var mobiledelta = 500;
-
-    // 记录动画执行开始时间
-    var mobilestart = null;
-    // 是否为删除动画
-    var mobileisDeleting = false;
-
-    // 动画回调函数
-    function mobileLoadDes(time) {
-        window.requestAnimationFrame(mobileLoadDes);
-        // 初始化开始时间
-        if (!mobilestart) start = time;
-        // 获取时间间隔
-        var mobileprogress = time - mobilestart;
-        // 每隔一定的时间，打印出一个新的字符
-        if (mobileprogress > mobiledelta) {
-            // 如果是打字效果
-            if (!mobileisDeleting) {
-                // 给展示文字的span新增一个字符，使用innerHTML来替换，charIndex自增1，然后返回新的字符串子串
-                mobiledes.innerHTML = "&nbsp;" + text.slice(
-                    0,
-                    ++mobilecharIndex
-                );
-                mobiledelta = 500 - Math.random() * 400;
+        $(document).on('click', '.has-sub', function(){
+            var _this = $(this)
+            if(!$(this).hasClass('expanded')) {
+               setTimeout(function(){
+                    _this.find('ul').attr("style","")
+               }, 300);
+              
             } else {
-                // 如果是删除效果，则把文字一个一个减掉
-                mobiledes.innerHTML = "&nbsp;" + text.slice(
-                    0,
-                    mobilecharIndex--
-                );
+                $('.has-sub ul').each(function(id,ele){
+                    var _that = $(this)
+                    if(_this.find('ul')[0] != ele) {
+                        setTimeout(function(){
+                            _that.attr("style","")
+                        }, 300);
+                    }
+                })
             }
-            // 把star更新为当前时间，进行下一个周期
-            mobilestart = time;
-
-            // 如果文字已经全部打印完毕
-            if (mobilecharIndex === text.length) {
-                // 下次开始删除文字
-                mobileisDeleting = true;
-                // 删除文字的间隔为200毫秒
-                mobiledelta = 100;
-                // 额外等待1.2秒后再删除
-                mobilestart = time + 1000;
+        })
+        $('.user-info-menu .hidden-sm').click(function(){
+            if($('.sidebar-menu').hasClass('collapsed')) {
+                $('.has-sub.expanded > ul').attr("style","")
+            } else {
+                $('.has-sub.expanded > ul').show()
             }
+        })
+        $("#main-menu li ul li").click(function() {
+            $(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
+            $(this).addClass('active'); // 添加当前元素的样式
+        });
+        $("a.smooth").click(function(ev) {
+            ev.preventDefault();
 
-            // 如果文字删除完毕
-            if (mobilecharIndex < 0) {
-                mobileisDeleting = false;
-                // 额外增加200毫秒延迟
-                mobilestart = time + 200;
-            }
-        }
-    }
+            public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
+            ps_destroy();
+            $("html, body").animate({
+                scrollTop: $($(this).attr("href")).offset().top - 30
+            }, {
+                duration: 500,
+                easing: "swing"
+            });
+        });
+        return false;
+    });
 
-    window.requestAnimationFrame(mobileLoadDes);
-</script>
-            <link rel="stylesheet" href="https://hengzhubao.github.io//media/css/font-awesome.css">
-<div id="post-container">
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            <img src="https://ars.els-cdn.com/content/image/1-s2.0-S1350417720316795-gr1.jpg" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/manuscript1/';return false">
-            <div class="posttitlebox">
-                <div class="posttitle" onclick="window.location.href= 'https://hengzhubao.github.io/post/manuscript1/';return false">
-                    Experimental investigations of three laser-induced synchronized bubbles
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-11-20</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 75 min read</div>
-            <div class="posttag">
-                
-                <a href="https://hengzhubao.github.io/tag/-ZhHBlWyM/" class="postlink">
-                    <i class="fa fa-tag"></i> papers
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="https://imgchr.com/i/DMjvl9" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/guiyin/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://hengzhubao.github.io/post/guiyin/';return false">
-                    抱负既成，自当归闲
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-11-28</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
-            <div class="posttag">
-                
-                <a href="https://hengzhubao.github.io/tag/fWdbEpDrt/" class="postlink">
-                    <i class="fa fa-tag"></i> notes
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="https://imgchr.com/i/DMjvl9" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/gudu/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://hengzhubao.github.io/post/gudu/';return false">
-                    孤独
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-11-24</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
-            <div class="posttag">
-                
-                <a href="https://hengzhubao.github.io/tag/fWdbEpDrt/" class="postlink">
-                    <i class="fa fa-tag"></i> notes
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="https://imgchr.com/i/DMjvl9" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/lackofmoney/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://hengzhubao.github.io/post/lackofmoney/';return false">
-                    缺钱
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-11-23</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
-            <div class="posttag">
-                
-                <a href="https://hengzhubao.github.io/tag/fWdbEpDrt/" class="postlink">
-                    <i class="fa fa-tag"></i> notes
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="https://imgchr.com/i/DMjvl9" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/xuexi/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://hengzhubao.github.io/post/xuexi/';return false">
-                    学习
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-11-22</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
-            <div class="posttag">
-                
-                <a href="https://hengzhubao.github.io/tag/fWdbEpDrt/" class="postlink">
-                    <i class="fa fa-tag"></i> notes
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="https://imgchr.com/i/DMjvl9" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/youth/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://hengzhubao.github.io/post/youth/';return false">
-                    YOUTH
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-11-21</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 2 min read</div>
-            <div class="posttag">
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="https://imgchr.com/i/DMjvl9" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/libaipoem/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://hengzhubao.github.io/post/libaipoem/';return false">
-                    经乱离后天恩流夜郎忆旧游书怀赠江夏韦太守良宰
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-11-15</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 3 min read</div>
-            <div class="posttag">
-                
-                <a href="https://hengzhubao.github.io/tag/fWdbEpDrt/" class="postlink">
-                    <i class="fa fa-tag"></i> notes
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="https://imgchr.com/i/DMjvl9" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/maodun/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://hengzhubao.github.io/post/maodun/';return false">
-                    统治者的矛盾
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-11-12</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
-            <div class="posttag">
-                
-                <a href="https://hengzhubao.github.io/tag/fWdbEpDrt/" class="postlink">
-                    <i class="fa fa-tag"></i> notes
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="https://imgchr.com/i/DMjvl9" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/trend/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://hengzhubao.github.io/post/trend/';return false">
-                    趋势
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-11-09</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
-            <div class="posttag">
-                
-                <a href="https://hengzhubao.github.io/tag/fWdbEpDrt/" class="postlink">
-                    <i class="fa fa-tag"></i> notes
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow postlist">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="https://imgchr.com/i/DMjvl9" class="postimage"
-                onclick="window.location.href= 'https://hengzhubao.github.io/post/adream/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://hengzhubao.github.io/post/adream/';return false">
-                    一个梦
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-10-20</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
-            <div class="posttag">
-                
-                <a href="https://hengzhubao.github.io/tag/fWdbEpDrt/" class="postlink">
-                    <i class="fa fa-tag"></i> notes
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-</div>
-            <div class="pagination-container">
-                
-                    <a href="#" class="mobile-prevpage"></a>
-                  
-                
-                <a href="https://hengzhubao.github.io/page/2" class="mobile-nextpage">下一页</a>
-                
-            </div>
-        </div>
-
-        <div id="landlord">
-            <div class="message" style="opacity:0"></div>
-            <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
-        </div>
-    </div>
-    <div id="domainname" style="display:none">https://hengzhubao.github.io/</div>
+    var href = "";
+    var pos = 0;
+    $("a.smooth").click(function(e) {
+        $("#main-menu li").each(function() {
+            $(this).removeClass("active");
+        });
+        $(this).parent("li").addClass("active");
+        e.preventDefault();
+        href = $(this).attr("href");
+        pos = $(href).position().top - 30;
+    });
+    </script>
+    <!-- Bottom Scripts -->
+    <script src="https://baohengzhu.github.io//media/js/bootstrap.min.js"></script>
+    <script src="https://baohengzhu.github.io//media/js/TweenMax.min.js"></script>
+    <script src="https://baohengzhu.github.io//media/js/resizeable.js"></script>
+    <script src="https://baohengzhu.github.io//media/js/xenon-toggles.js"></script>
+    <script src="https://baohengzhu.github.io//media/js/xenon-custom.js"></script>
+    <script src="https://baohengzhu.github.io//media/js/lozad.js"></script>
+    <script src="https://baohengzhu.github.io//media/js/LetterAvatar.js"></script>
 </body>
+
+
 
 </html>
-
-<script type="text/javascript">
-    var message_Path = '/live2d/'
-    var home_Path = document.getElementById("domainname").innerHTML+"/"; //此处修改为你的域名，必须带斜杠
-</script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/live2d.js"></script>
-<script type="text/javascript" src="https://hengzhubao.github.io//media/live2d/js/message.js"></script>
-<script type="text/javascript">
-    loadlive2d("live2d", "https://hengzhubao.github.io//media/live2d/assets/tororo.model.json");
-</script>
-
-
-<script>
-        var bgchoice=$('#bgchoice').html();
-        var bg = $('#bg');
-        var bgurl = document.getElementById("bgurl").innerHTML;
-        if(bgchoice=='default')
-            for (var i = 0; i < 3; i++)
-                bgurl = bgurl.replace("\\", "/");
-        bg.css("background", "url('" + bgurl + "')");
-
-        window.onload = function(){
-            aplayerbtnInit();
-        }
-</script>
-
-    <script src="https://hengzhubao.github.io//media/js/index.js"></script>
