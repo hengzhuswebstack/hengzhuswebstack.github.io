@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://baohengzhu.github.io/</id>
-    <title>求是法道Hengzhu Bao</title>
-    <updated>2021-08-22T19:28:52.867Z</updated>
+    <title>Hengzhu Bao</title>
+    <updated>2021-08-22T20:23:37.400Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://baohengzhu.github.io/"/>
     <link rel="self" href="https://baohengzhu.github.io/atom.xml"/>
-    <subtitle>共产党人不屑于隐瞒自己的观点和意图</subtitle>
+    <subtitle>A simple web stack for Hengzhu Bao </subtitle>
     <logo>https://baohengzhu.github.io/images/avatar.png</logo>
     <icon>https://baohengzhu.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, 求是法道Hengzhu Bao</rights>
+    <rights>All rights reserved 2021, Hengzhu Bao</rights>
 </feed>
