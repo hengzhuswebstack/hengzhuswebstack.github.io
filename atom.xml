@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hengzhuswebstack.github.io</id>
-    <title>Hengzhu Bao</title>
-    <updated>2021-08-23T05:59:05.845Z</updated>
+    <title>Hengzhu Bao&apos;s Web stack </title>
+    <updated>2021-08-23T06:03:01.323Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hengzhuswebstack.github.io"/>
     <link rel="self" href="https://hengzhuswebstack.github.io/atom.xml"/>
-    <subtitle>A simple web stack for Hengzhu Bao </subtitle>
+    <subtitle>A simple Home web stie for Hengzhu Bao </subtitle>
     <logo>https://hengzhuswebstack.github.io/images/avatar.png</logo>
     <icon>https://hengzhuswebstack.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Hengzhu Bao</rights>
+    <rights>All rights reserved 2021, Hengzhu Bao&apos;s Web stack </rights>
 </feed>
